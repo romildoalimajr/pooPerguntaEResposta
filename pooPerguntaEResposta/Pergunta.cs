@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace pooPerguntaEResposta
 {
-    internal class Program
+    internal class Pergunta
     {
-        static void Main(string[] args)
-        {
-            Pergunta p = new Pergunta();
-        }
     }
 }
