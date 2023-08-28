@@ -6,7 +6,23 @@ using System.Threading.Tasks;
 
 namespace pooPerguntaEResposta
 {
-    internal class Pergunta
+    public class Pergunta
     {
+        public Pergunta()
+        {
+            this.Texto = "";
+            this.Resposta = "";
+        }
+
+        public Pergunta(String texto, String resposta)
+        {
+            this.Texto = texto;
+            this.Resposta = resposta;
+        }
+
+        public String Texto { get; set; }
+
+        public String Resposta { get; set; }
+
     }
 }
