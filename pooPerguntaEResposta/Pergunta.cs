@@ -8,6 +8,10 @@ namespace pooPerguntaEResposta
 {
     public class Pergunta
     {
+        //public String testA;
+        //private String testB;
+        //protected String testC;
+
         public Pergunta()
         {
             this.Texto = "";
